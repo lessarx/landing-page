@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px 30px;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.header .links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
