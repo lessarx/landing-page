@@ -80,3 +80,40 @@ body {
     text-decoration: none;
     margin-top: 10px;
 }
+
+.characters {
+    padding: 30px 150px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.characters h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.characters .cards {
+    display: flex;
+    gap: 30px;
+}
+
+.characters .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+}
+
+.characters .card img {
+    width: 200px;
+    height: auto;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
