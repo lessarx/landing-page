@@ -117,3 +117,24 @@ body {
     border: 3px solid #3882F6;
     border-radius: 10px;
 }
+
+.quote-container {
+    padding: 50px 150px 50px;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote-container .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote-container .author {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+}
